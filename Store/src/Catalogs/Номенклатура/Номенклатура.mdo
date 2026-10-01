@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="417a4f0b-a287-4792-8a58-3764e3563638">
+  <producedTypes>
+    <objectType typeId="461aa759-d167-4fee-a996-c61ed7130e4e" valueTypeId="12f041b1-ab88-4c70-8bf4-62786809bd18"/>
+    <refType typeId="594c3559-e2ad-4e66-ae35-dd4a83d4433e" valueTypeId="dcf0b7a4-698b-4c4b-8ff2-b3815a8c113f"/>
+    <selectionType typeId="37cf222c-e7f8-42bc-a506-6467ee3fbb54" valueTypeId="4154b65d-9b8a-4e05-b8d4-c29a2324a257"/>
+    <listType typeId="db356eb9-c0cb-43f3-9e7d-1b1be32e3c45" valueTypeId="6e0d068b-ba09-4143-af97-b10279daf1df"/>
+    <managerType typeId="e7ecbd59-8d14-43ee-bda6-d02138fccb39" valueTypeId="b6f72dd3-6687-47f9-98f7-8b2b06b524f8"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="e94bd707-7b27-4eb5-8d1d-fac7d54e1c6f">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d020c984-8902-426d-965b-00c4499b433a">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2d5cda83-68c5-4c4b-94bd-2bb78ea31196">
+    <producedTypes>
+      <objectType typeId="6aeca9a7-1ad4-47be-9640-3e0462e16d6c" valueTypeId="afd83edb-adf3-4615-82b2-b9b5d53a37a1"/>
+      <rowType typeId="46658c11-ed63-49a2-a42e-b69615ffa55e" valueTypeId="a40f8cd9-0168-4036-ad78-392cd324a822"/>
+    </producedTypes>
+    <name>Производители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производители</value>
+    </synonym>
+    <attributes uuid="00a55040-ba57-4e81-bc25-a808e44e918b">
+      <name>Производитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производитель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <forms uuid="7f0ecf23-ac15-4b64-bb6c-5b3d4ac4ca71">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

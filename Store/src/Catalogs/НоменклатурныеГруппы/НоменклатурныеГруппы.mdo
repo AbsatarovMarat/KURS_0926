@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17a2b08f-cb3a-4790-b674-aed4c19fbf47">
+  <producedTypes>
+    <objectType typeId="d1d67afb-27ff-4d02-8247-55e66ab204dc" valueTypeId="a6279587-2db9-49cd-8e12-3e7da2a512db"/>
+    <refType typeId="dd5af1d9-4f9f-4ff4-a140-dc911029515e" valueTypeId="08dd9cc7-3ac7-42a7-a7c2-9d33a683dcc0"/>
+    <selectionType typeId="394749db-bff2-4eba-b60d-caca8865c8d8" valueTypeId="6310ca60-987c-4781-a1ec-ee46a5689845"/>
+    <listType typeId="e1f324f1-d168-4065-8af2-a6427347c815" valueTypeId="6605f912-abf9-4ec2-806f-8cf792c61ad8"/>
+    <managerType typeId="c48aca37-9c11-4914-a5bb-84512d60c025" valueTypeId="3ff66317-a6e4-41e0-84cf-59e0a3d36729"/>
+  </producedTypes>
+  <name>НоменклатурныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатурные группы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатурная группа</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Номенклатурные группы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НоменклатурныеГруппы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="67b76eb4-dfa1-44ae-936f-59da46ec2c54">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62fcf0ac-c98c-4273-915d-40498fbd017c">
+    <name>ЭтоУслуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это услуга</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e9f33d82-88bb-4c39-a20c-561d3d19b085">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+  </forms>
+  <templates uuid="19f8dcd1-0136-473d-8460-f25c21ba9a1f">
+    <name>ПечатнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная форма</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c49f04b9-faf0-470d-85e6-eccd4803a9bb">
+  <producedTypes>
+    <objectType typeId="29706e96-51cf-4a3d-bc8c-63d999d152fc" valueTypeId="1474097b-f55e-4cab-9c7a-c7b019ab687e"/>
+    <refType typeId="2ce3e4d5-6241-4a91-a328-0438f7342789" valueTypeId="c301b550-8ec2-4181-9540-766e9f41fb76"/>
+    <selectionType typeId="25a9e5a4-c64a-4535-a133-01eeb2b924c6" valueTypeId="6876b14a-c5c7-48f3-9cf4-ba807e0e967a"/>
+    <listType typeId="b4a58d2c-e7b4-4a14-baf3-1997190d8231" valueTypeId="a879bea3-be86-4cb3-a697-f0733e8fe36a"/>
+    <managerType typeId="d28c3b4d-f036-4ef0-a6b3-cb12b8b316ba" valueTypeId="c762ef22-596e-4429-afed-9dc1a3b827a4"/>
+  </producedTypes>
+  <name>РеализацияТоваровУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация товаров и услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеализацияТоваровУслуг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5d83f88c-7532-4ecb-92f0-a209b3096343">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
