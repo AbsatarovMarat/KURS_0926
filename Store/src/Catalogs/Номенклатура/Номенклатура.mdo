@@ -75,6 +75,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="0bfa1b50-4dba-438e-ac89-df03422d0da6">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Производители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="2d5cda83-68c5-4c4b-94bd-2bb78ea31196">
     <producedTypes>
       <objectType typeId="6aeca9a7-1ad4-47be-9640-3e0462e16d6c" valueTypeId="afd83edb-adf3-4615-82b2-b9b5d53a37a1"/>
