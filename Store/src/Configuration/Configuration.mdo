@@ -48,6 +48,7 @@
   <catalogs>Catalog.Справочник4</catalogs>
   <catalogs>Catalog.Справочник5</catalogs>
   <documents>Document.Документ4</documents>
+  <documents>Document.Документ5</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
 </mdclass:Configuration>
