@@ -47,6 +47,8 @@
   <catalogs>Catalog.Справочник3</catalogs>
   <catalogs>Catalog.Справочник4</catalogs>
   <catalogs>Catalog.Справочник5</catalogs>
+  <catalogs>Catalog.Справочник6</catalogs>
+  <catalogs>Catalog.Справочник7</catalogs>
   <documents>Document.Документ4</documents>
   <documents>Document.Документ5</documents>
   <documents>Document.ПоступлениеТоваров</documents>
