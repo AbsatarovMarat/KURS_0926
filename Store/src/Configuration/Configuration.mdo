@@ -52,6 +52,7 @@
   <catalogs>Catalog.Справочник7</catalogs>
   <documents>Document.Документ4</documents>
   <documents>Document.Документ5</documents>
+  <documents>Document.КадровыйПеревод</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПриемНаРаботу</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
