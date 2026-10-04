@@ -55,4 +55,5 @@
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПриемНаРаботу</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.Увольнение</documents>
 </mdclass:Configuration>
